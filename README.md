@@ -1,3 +1,16 @@
+shadowtunnel -e -f 127.0.0.1:4445 -l :5000 -daemon -forever -nolog
+
+shadowtunnel -E -f B.B.B.B:5000 -l :3128 -daemon -forever -nolog
+
+========
+
+shadowtunnel -u -f 127.0.0.1:4445 -l :5000 -daemon -forever -nolog
+
+shadowtunnel -U -f B.B.B.B:5000 -l :3128 -daemon -forever -nolog
+========
+
+Original:
+
 # shadowtunnel
 
 ## Introduce
