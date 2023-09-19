@@ -1,15 +1,13 @@
 wget https://github.com/snail007/shadowtunnel/releases/download/v1.7/shadowtunnel-linux-amd64.tar.gz && tar zxfv shadowtunnel-linux-amd64.tar.gz && rm shadowtunnel-linux-amd64.tar.gz && mv shadowtunnel /usr/bin/
-=========
+==================
 shadowtunnel -e -f 127.0.0.1:4445 -l :5000 -daemon -forever -nolog
 
 shadowtunnel -E -f B.B.B.B:5000 -l :3128 -daemon -forever -nolog
-
-========
-
+==================
 shadowtunnel -u -f 127.0.0.1:4445 -l :5000 -daemon -forever -nolog
 
 shadowtunnel -U -f B.B.B.B:5000 -l :3128 -daemon -forever -nolog
-========
+==================
 
 Original:
 
